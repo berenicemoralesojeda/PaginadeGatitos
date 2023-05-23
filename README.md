@@ -10,7 +10,7 @@
 ## 1. Intro 🥸📚
 HTML5 trabaja de la mano con CSS3 para crear páginas web que usamos todos los días en el navegador. Incluso este sitio web en donde estás viendo este contenido está construido con HTML y CSS.
 
-En este proyecto, con los conceptos básicos de HTML y CSS pude realizar una página web de Gatitos secilla.
+En este proyecto, con los conceptos básicos de HTML y CSS, pude realizar una página web de Gatitos secilla.
 
 ## 2. Qué construí 🛠🪄
 En este proyecto desarrollé una página web sobre gatitos con programación básica de HTML y CSS. Contiene las siguientes secciones:
@@ -21,4 +21,4 @@ En este proyecto desarrollé una página web sobre gatitos con programación bá
 
 ## 3. Objetivo del Proyecto 🎯💻
 
-Tener un primer hacercamiento con la estructura de HTML5 y los estilos de CSS3.
+Tener un primer acercamiento con la estructura de HTML5 y los estilos de CSS3.
