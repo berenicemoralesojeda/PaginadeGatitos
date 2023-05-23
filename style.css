@@ -1,0 +1,39 @@
+/*Así se hace comentarios*/
+body{
+    background-color: hotpink;
+    color: #ffb8f4;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+
+h1{
+    color: #ffa008;
+    font-size: 48px;
+    
+}
+
+p{
+    color: #08d8ff;
+    font-size: 30px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+img{
+    width: 400px;
+    border-style:double;
+    border-width: 8px;
+    border-color: #fffb9f;
+    margin: 10px 20px;
+}
+
+a{
+    color: #ff0073;
+}
+
+.footer{
+    font-size: 22px;
+    color:#def601;
+}

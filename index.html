@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Esto es un comentario-->
+    <title>Página de Gatitos</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <h1>Página de Gatitos</h1>
+</header>
+
+<body>
+    <h3>Imágenes de Gatitos</h3>
+    <!--Agregar imagen desde la web con "copy image adress"-->
+    <img src="https://fundacionrevida.ec/wp-content/uploads/2019/10/shutterstock_479074795-1-1024x682.jpg" alt="">
+
+    <br>
+    
+    <!--Agregar imagen desde la computadora-->
+    <img src="/img/gatito.jpg" alt="">
+
+    <!--"Listas" dentro del body-->
+
+    <h3>Listas de Gatitos</h3>
+
+    <p>Cosas que los gatitos
+        <strong>aman</strong></p>
+
+    <!--"Listas" ordenadas-->
+    <ol> <!--Ordered list-->
+        <li>Pescados</li> <!--li = list item-->
+        <li>Dormir</li>
+        <li>Jugar</li>
+        <li>Pelotas de estambre</li>
+    </ol>
+
+    <p>Cosas que los gatitos
+        <i>odian</i></p>
+
+    <!--"Listas desordenadas"-->
+    <ul> <!--Unordered list-->
+        <li>Pepinos</li>
+        <li>Tener que bañarse</li>
+        <li>Tener hambre</li>
+        <li>No tener compañia</li>
+
+    </ul>
+
+    <!--Enlaces externos-->
+    <!--Formato de hipervinculo con la etiqueta "a"-->
+    <!--Para abrir en una nueva tab usamos target-->
+    <p>Si quieres ver videos de gatitos <a href="https://www.youtube.com/watch?v=u0XHVssfsYM" target="_blank">da click aquí</a></p>
+
+    <h3>Formulario</h3>
+    
+    <!--Formularios-->
+    <!--Formulario con botones de radio-->
+    <!--Checked para seleccionar por default-->
+    <p>¿Tu gatito es cachorro o adulto</p>
+    <label for="">
+        <input id="cachorro" type="radio"
+        value="Cachorro"
+        name="Cachorro-adulto" checked>
+        Cachorro
+    </label>
+
+    <br> <!--Break de salto de linea-->
+
+    <label for="">
+        <input id="Adulto" type="radio"
+        value="Aldulto"
+        name="Cachorro-adulto">
+        Adulto
+    </label>
+
+    <!--Formulario con casillas de verificación-->
+    <!--Con checkbox podemos elegir más de una opción-->
+    <p>¿Qué tipo de gato es el tuyo?</p>
+    <label>
+        <input id="carinoso" type="checkbox"
+        value="carinoso"
+        name="personalidad" checked>Cariñoso
+    </label>
+
+    <br>
+
+    <label>
+        <input id="perezoso" type="checkbox"
+        value="perezoso"
+        name="personalidad" checked>Perezoso
+    </label>
+
+    <br>
+    
+    <label>
+        <input id="energico" type="checkbox"
+        value="energico"
+        name="personalidad" checked>Enérgico
+    </label>
+
+    <br>
+
+    <label>
+        <input id="Dormilon" type="checkbox"
+        value="Dormilon"
+        name="personalidad">Dormilón
+    </label>
+</body>
+<footer>
+    <p class="footer"><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></small></p>
+</footer>
+</html>
